@@ -130,7 +130,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 import firebase_admin
 from firebase_admin import credentials
 
-cred = credentials.Certificate("test-6817c-firebase-adminsdk-6r0pr-24e4751316.json")
+cred = credentials.Certificate("test-6817c-firebase-adminsdk-6r0pr-9d55e780ad.json")
 firebase_admin.initialize_app(cred)
 
 #Protección para que no salten el login de la página sin antes iniciar sesión
